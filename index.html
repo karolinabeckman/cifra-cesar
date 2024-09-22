@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="estilo.css">
+  <title>Cifra de César</title>
+</head>
+<body>
+  <img class="imagem" src="./assets/cifra.jpeg"/>
+  <h1 class="destaque">Criptografe a sua mensagem:</h1>
+  <div class="campo texto">
+    <label for="para-criptografar">Digite a sua mensagem:</label>
+    <input type="text" class="entrada" id="para-criptografar">
+  </div>
+  <div class="campo seletor">
+    <label for="deslocamento">Mudar o início do alfabeto para:</label>
+    <select id="deslocamento" class="entrada">
+    </select>
+  </div>
+  <button type="botao" class="botao" id="botao">Criptografar</button>
+  <p class="invisivel" id="resposta"></p>
+  <script src="script.js"></script>
+</body>
+</html>
+
+
+<!-- <!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Cifra de César</title>
+
+    <link rel="stylesheet" href="estilo.css">
+  </head>
+  <body>
+    <img src="./assets/cifra.jpeg" alt="" class="imagem"/>
+    <h1>Criptografe a sua mensagem:</h1>
+    <form action="">
+      <div>
+        <label for="msg">Digite a sua mensagem:</label>
+        <input type="text" id="msg">
+      </div>
+      <div>
+        <label for="selecionarLetra">Mudar o início do alfabeto para:</label>
+        <select name="letras" id="selecionarLetra">
+          <option value="">A</option>
+          <option value="">B</option>
+          <option value="">C</option>
+        </select>
+      </div>
+      <button type="submit">Criptografar</button>
+    </form>
+
+    <script src="script.js"></script>
+  </body>
+</html> -->
